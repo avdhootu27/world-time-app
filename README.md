@@ -1,6 +1,6 @@
 ## Home Screen
 
-A new Flutter application.
+<img src='images/home-screen'>
 
 ## Edit Location Screen
 
