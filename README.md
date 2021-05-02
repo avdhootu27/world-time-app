@@ -1,6 +1,6 @@
 ## Home Screen
 
-<img src='images/home-screen'/>
+<img src="images/home-screen.jpg"/>
 
 ## Edit Location Screen
 
