@@ -1,6 +1,6 @@
 ## Home Screen
 
-![home](https://github.com/avdhootu27/world-time-app/blob/master/images/home-screen.jpg)
+[home](https://github.com/avdhootu27/world-time-app/blob/master/images/home-screen.jpg)
 
 ## Edit Location Screen
 
