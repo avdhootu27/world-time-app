@@ -18,22 +18,17 @@ class WorldTime {
     try{
       Response response = await http.get(Uri.https('worldtimeapi.org','api/timezone/$url'));
       Map data = jsonDecode(response.body);
-      // print(data);
 
       // get properties from data
       String dateTime = data['datetime'];
       String offset = data['utc_offset'].substring(1,3);
       String offsetm = data['utc_offset'].substring(4,6);
-      // print(dataTime);
-      // print(offsetm);
 
-      // create a dateTime object
       DateTime now = DateTime.parse(dateTime);
       now = now.add(Duration(hours: int.parse(offset)));
       now = now.add(Duration(minutes: int.parse(offsetm)));
 
       isDayTime = now.hour > 6 && now.hour < 20 ? true : false;
-      isDayTime = true ;
       time = DateFormat.jm().format(now);
 
     }
