@@ -1,6 +1,6 @@
 ## Home Screen
 
-<img src="images/home-screen.jp" height="700" raw=true alt="home"/>
+<img src="images/home-screen.jpg" height="700" raw=true alt="home"/>
 
 ## Edit Location Screen
 
